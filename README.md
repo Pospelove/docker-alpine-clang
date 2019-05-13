@@ -9,10 +9,10 @@ an essential build environment.
 * autoconf
 * automake
 * bash
-* binutils
 * clang
 * clang-dev
 * dpkg
 * git
+* lld
 * make
 * musl-dev
