@@ -12,6 +12,7 @@ an essential build environment.
 * clang
 * clang-dev
 * dpkg
+* gcc
 * git
 * lld
 * make

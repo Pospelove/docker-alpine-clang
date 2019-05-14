@@ -4,7 +4,7 @@ LABEL maintainer="Bernhard Froehlich <decke@bluelife.at>"
 
 RUN apk add --no-cache bash dpkg git
 RUN apk add --no-cache autoconf automake make
-RUN apk add --no-cache clang clang-dev lld musl-dev
+RUN apk add --no-cache clang clang-dev gcc lld musl-dev
 
 RUN ln -sf /usr/bin/clang /usr/bin/cc
 RUN ln -sf /usr/bin/clang++ /usr/bin/c++
